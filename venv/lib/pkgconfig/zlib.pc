@@ -1,0 +1,13 @@
+prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv
+exec_prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv
+libdir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv/lib
+sharedlibdir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv/lib
+includedir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

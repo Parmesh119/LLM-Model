@@ -1,0 +1,11 @@
+prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Chatbot/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
