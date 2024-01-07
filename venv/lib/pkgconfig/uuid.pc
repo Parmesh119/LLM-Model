@@ -1,0 +1,11 @@
+prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Image recognizance/venv
+exec_prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Image recognizance/venv
+libdir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Image recognizance/venv/lib
+includedir=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Image recognizance/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

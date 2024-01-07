@@ -1,0 +1,11 @@
+prefix=/media/parmesh/New Volume/Development/Gemini AI Chatbot/chatbot_project/Image recognizance/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 3.0.12
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}
